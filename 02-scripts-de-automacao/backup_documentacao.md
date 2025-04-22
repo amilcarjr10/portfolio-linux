@@ -21,7 +21,8 @@ EMAIL: O e-mail que receberá a notificação após a conclusão do backup.
 2. Criação do Backup:
 O comando principal para criação do backup é:
 
-tar -czf $DIR_DESTINO/backup_$(date +%Y-%m-%d_%H-%M-%S).tar.gz $DIR_ORIGEM
+" 
+tar -czf $DIR_DESTINO/backup_$(date +%Y-%m-%d_%H-%M-%S).tar.gz $DIR_ORIGEM "
 
 Aqui está a explicação detalhada dos parâmetros usados:
 
