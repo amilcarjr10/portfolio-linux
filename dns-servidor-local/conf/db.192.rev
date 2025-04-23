@@ -1,0 +1,12 @@
+$TTL    604800
+@       IN      SOA     ns1.meudominio.local. admin.meudominio.local. (
+                              2023042301         ; Serial
+                              604800             ; Refresh
+                              86400              ; Retry
+                              2419200            ; Expire
+                              604800 )           ; Negative Cache TTL
+
+@       IN      NS      ns1.meudominio.local.
+10      IN      PTR     ns1.meudominio.local.
+20      IN      PTR     www.meudominio.local.
+30      IN      PTR     mail.meudominio.local.

@@ -1,0 +1,9 @@
+zone "meudominio.local" {
+    type master;
+    file "/etc/bind/db.meudominio.local";
+};
+
+zone "1.168.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/db.192.rev";
+};
