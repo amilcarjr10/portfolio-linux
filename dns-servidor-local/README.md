@@ -36,7 +36,7 @@ meu-projeto-dns/
 
 ---
 
-## 🧠 O que esse projeto cobre?
+## 🧠 O que esse  projeto cobre?
 
 - Configuração manual e automatizada do BIND9
 - Criação de arquivos de zona direta (`meudominio.local`)
